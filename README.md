@@ -1,4 +1,4 @@
-#Simple UNIX Shell
+#SimpleUNIXShell
 
 Operator's Manual:
 
