@@ -9,7 +9,7 @@ For those unfamiliar with UNIX shells, there is a specific syntax for these
 commands.
 The prompt on the screen is the name of the file directory you are currently in.
 
-eg. linux1/home>
+Eg. linux1/home>
 
 Once you type in a command, you must press enter for it to process. The shell will then read the command
 and try to execute it. This command can fail to execute if:
