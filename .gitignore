@@ -2,3 +2,5 @@ readme.txt
 makefile~
 myshell
 myshell.c~
+.gitignore~
+*shell*
