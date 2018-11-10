@@ -1,0 +1,300 @@
+cis-lclient11:~/tug78963/os>gcc -o shellmain shellmain.c
+shellmain.c: In function ‘changeShellPath’:
+shellmain.c:178:13: error: ‘STDERR’ undeclared (first use in this function)
+     fprintf(STDERR, "Malloc failed \n");
+             ^
+shellmain.c:178:13: note: each undeclared identifier is reported only once for each function it appears in
+cis-lclient11:~/tug78963/os>gcc -o shellmain shellmain.c
+cis-lclient11:~/tug78963/os>./shellmain
+/home/TU/tug78963/tug78963/os>env
+PWD=/home/TU/tug78963/tug78963/os
+TERM=dumb
+TERMCAP=
+COLUMNS=50
+EMACS=t
+INSIDE_EMACS=24.5.1,comint
+WWW_HOME=http://www.cis.temple.edu
+MANPATH=/usr/local/man:/usr/share/man
+REMOTEHOST=cis-linux2-priv.temple.edu
+HOST=cis-lclient11
+GROUP=domain users
+SHLVL=2
+MACHTYPE=x86_64
+OSTYPE=linux
+VENDOR=unknown
+HOSTTYPE=x86_64-linux
+XDG_RUNTIME_DIR=/run/user/381637
+XDG_SESSION_ID=63
+SSH_TTY=/dev/pts/1
+SSH_CONNECTION=129.32.95.123 42412 129.32.95.92 22
+SSH_CLIENT=129.32.95.123 42412 22
+SHELL=/bin/tcsh
+MAIL=/var/mail/tug78963
+PATH=/home/TU/tug78963:/home/TU/tug78963/bin:/home/TU/tug78963:/home/TU/tug78963/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/bin:/usr/bin:.:/usr/local/bin:/usr/bin:.
+HOME=/home/TU/tug78963
+LOGNAME=tug78963
+USER=tug78963
+LANG=en_US.UTF-8
+/home/TU/tug78963/tug78963/os>quit
+cis-lclient11:~/tug78963/os>gcc -o shellmain shellmain.c
+cis-lclient11:~/tug78963/os>./shellmain
+/home/TU/tug78963/tug78963/os>env
+PWD=/home/TU/tug78963/tug78963/os
+TERM=dumb
+TERMCAP=
+COLUMNS=50
+EMACS=t
+INSIDE_EMACS=24.5.1,comint
+WWW_HOME=http://www.cis.temple.edu
+MANPATH=/usr/local/man:/usr/share/man
+REMOTEHOST=cis-linux2-priv.temple.edu
+HOST=cis-lclient11
+GROUP=domain users
+SHLVL=2
+MACHTYPE=x86_64
+OSTYPE=linux
+VENDOR=unknown
+HOSTTYPE=x86_64-linux
+XDG_RUNTIME_DIR=/run/user/381637
+XDG_SESSION_ID=63
+SSH_TTY=/dev/pts/1
+SSH_CONNECTION=129.32.95.123 42412 129.32.95.92 22
+SSH_CLIENT=129.32.95.123 42412 22
+SHELL=/home/TU/tug78963/tug78963/osshellmain
+MAIL=/var/mail/tug78963
+PATH=/home/TU/tug78963:/home/TU/tug78963/bin:/home/TU/tug78963:/home/TU/tug78963/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/bin:/usr/bin:.:/usr/local/bin:/usr/bin:.
+HOME=/home/TU/tug78963
+LOGNAME=tug78963
+USER=tug78963
+LANG=en_US.UTF-8
+/home/TU/tug78963/tug78963/os>
+
+Not built in cmd.
+/home/TU/tug78963/tug78963/os>quit
+cis-lclient11:~/tug78963/os>gcc -o shellmain shellmain.c
+cis-lclient11:~/tug78963/os>./shellmain
+/home/TU/tug78963/tug78963/os>env
+PWD=/home/TU/tug78963/tug78963/os
+TERM=dumb
+TERMCAP=
+COLUMNS=50
+EMACS=t
+INSIDE_EMACS=24.5.1,comint
+WWW_HOME=http://www.cis.temple.edu
+MANPATH=/usr/local/man:/usr/share/man
+REMOTEHOST=cis-linux2-priv.temple.edu
+HOST=cis-lclient11
+GROUP=domain users
+SHLVL=2
+MACHTYPE=x86_64
+OSTYPE=linux
+VENDOR=unknown
+HOSTTYPE=x86_64-linux
+XDG_RUNTIME_DIR=/run/user/381637
+XDG_SESSION_ID=63
+SSH_TTY=/dev/pts/1
+SSH_CONNECTION=129.32.95.123 42412 129.32.95.92 22
+SSH_CLIENT=129.32.95.123 42412 22
+SHELL=/home/TU/tug78963/tug78963/os/shellmain
+MAIL=/var/mail/tug78963
+PATH=/home/TU/tug78963:/home/TU/tug78963/bin:/home/TU/tug78963:/home/TU/tug78963/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/bin:/usr/bin:.:/usr/local/bin:/usr/bin:.
+HOME=/home/TU/tug78963
+LOGNAME=tug78963
+USER=tug78963
+LANG=en_US.UTF-8
+/home/TU/tug78963/tug78963/os>clr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/home/TU/tug78963/tug78963/os>quit
+cis-lclient11:~/tug78963/os>cd tug78963
+tug78963: No such file or directory.
+cis-lclient11:~/tug78963/os>cd..
+cd..: Command not found.
+cis-lclient11:~/tug78963/os>cd ..
+cis-lclient11:~/tug78963>cd os
+cis-lclient11:~/tug78963/os>mkdir testdir
+cis-lclient11:~/tug78963/os>ls
+shellmain      shellmain.c   testdir
+#shellmain.c#  shellmain.c~
+cis-lclient11:~/tug78963/os>gcc -o shellmain shellmain.c
+cis-lclient11:~/tug78963/os>./shellmain
+/home/TU/tug78963/tug78963/os>cd testdir
+
+CD
+/home/TU/tug78963/tug78963/os>quit
+cis-lclient11:~/tug78963/os>gcc -o shellmain shellmain.c
+cis-lclient11:~/tug78963/os>./shellmain
+/home/TU/tug78963/tug78963/os>cd testdir
+
+CD
+/home/TU/tug78963/tug78963/os>env
+PWD=/home/TU/tug78963/tug78963/os
+TERM=dumb
+TERMCAP=
+COLUMNS=50
+EMACS=t
+INSIDE_EMACS=24.5.1,comint
+WWW_HOME=http://www.cis.temple.edu
+MANPATH=/usr/local/man:/usr/share/man
+REMOTEHOST=cis-linux2-priv.temple.edu
+HOST=cis-lclient11
+GROUP=domain users
+SHLVL=2
+MACHTYPE=x86_64
+OSTYPE=linux
+VENDOR=unknown
+HOSTTYPE=x86_64-linux
+XDG_RUNTIME_DIR=/run/user/381637
+XDG_SESSION_ID=63
+SSH_TTY=/dev/pts/1
+SSH_CONNECTION=129.32.95.123 42412 129.32.95.92 22
+SSH_CLIENT=129.32.95.123 42412 22
+SHELL=/home/TU/tug78963/tug78963/os/shellmain
+MAIL=/var/mail/tug78963
+PATH=/home/TU/tug78963:/home/TU/tug78963/bin:/home/TU/tug78963:/home/TU/tug78963/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/bin:/usr/bin:.:/usr/local/bin:/usr/bin:.
+HOME=/home/TU/tug78963
+LOGNAME=tug78963
+USER=tug78963
+LANG=en_US.UTF-8
+/home/TU/tug78963/tug78963/os>quit
+cis-lclient11:~/tug78963/os>gcc -o shellmain shellmain.c
+shellmain.c: In function ‘isBuiltInCmd’:
+shellmain.c:141:5: warning: implicit declaration of function ‘cd’ [-Wimplicit-function-declaration]
+     cd(argv[1]);
+     ^
+shellmain.c: At top level:
+shellmain.c:184:6: warning: conflicting types for ‘cd’
+ void cd(char * directory){
+      ^
+shellmain.c:141:5: note: previous implicit declaration of ‘cd’ was here
+     cd(argv[1]);
+     ^
+cis-lclient11:~/tug78963/os>gcc -o shellmain shellmain.c
+cis-lclient11:~/tug78963/os>./shellmain
+/home/TU/tug78963/tug78963/os>cd testdir
+/home/TU/tug78963/tug78963/os>/home/TU/tug78963/tug78963/os>env
+PWD=/home/TU/tug78963/tug78963/os
+TERM=dumb
+TERMCAP=
+COLUMNS=50
+EMACS=t
+INSIDE_EMACS=24.5.1,comint
+WWW_HOME=http://www.cis.temple.edu
+MANPATH=/usr/local/man:/usr/share/man
+REMOTEHOST=cis-linux2-priv.temple.edu
+HOST=cis-lclient11
+GROUP=domain users
+SHLVL=2
+MACHTYPE=x86_64
+OSTYPE=linux
+VENDOR=unknown
+HOSTTYPE=x86_64-linux
+XDG_RUNTIME_DIR=/run/user/381637
+XDG_SESSION_ID=63
+SSH_TTY=/dev/pts/1
+SSH_CONNECTION=129.32.95.123 42412 129.32.95.92 22
+SSH_CLIENT=129.32.95.123 42412 22
+SHELL=/home/TU/tug78963/tug78963/os/shellmain
+MAIL=/var/mail/tug78963
+PATH=/home/TU/tug78963:/home/TU/tug78963/bin:/home/TU/tug78963:/home/TU/tug78963/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/bin:/usr/bin:.:/usr/local/bin:/usr/bin:.
+HOME=/home/TU/tug78963
+LOGNAME=tug78963
+USER=tug78963
+LANG=en_US.UTF-8
+/home/TU/tug78963/tug78963/os>
+
+Not built in cmd.
+/home/TU/tug78963/tug78963/os>quit
+cis-lclient11:~/tug78963/os>gcc -o shellmain shellmain.c
+cis-lclient11:~/tug78963/os>./shellmain
+/home/TU/tug78963/tug78963/os>cd testdir
+Segmentation fault (core dumped)
+cis-lclient11:~/tug78963/os>gcc -o shellmain shellmain.c
+cis-lclient11:~/tug78963/os>./shellmain
+/home/TU/tug78963/tug78963/os>cd testdir
+/home/TU/tug78963/tug78963/os>/home/TU/tug78963/tug78963/os>quit
+cis-lclient11:~/tug78963/os>gcc -o shellmain shellmain.c
+cis-lclient11:~/tug78963/os>./shellmain
+/home/TU/tug78963/tug78963/os>cd testdir
+
+/testdir
+
+/home/TU/tug78963/tug78963/os>/home/TU/tug78963/tug78963/os>env
+PWD=/home/TU/tug78963/tug78963/os
+TERM=dumb
+TERMCAP=
+COLUMNS=50
+EMACS=t
+INSIDE_EMACS=24.5.1,comint
+WWW_HOME=http://www.cis.temple.edu
+MANPATH=/usr/local/man:/usr/share/man
+REMOTEHOST=cis-linux2-priv.temple.edu
+HOST=cis-lclient11
+GROUP=domain users
+SHLVL=2
+MACHTYPE=x86_64
+OSTYPE=linux
+VENDOR=unknown
+HOSTTYPE=x86_64-linux
+XDG_RUNTIME_DIR=/run/user/381637
+XDG_SESSION_ID=63
+SSH_TTY=/dev/pts/1
+SSH_CONNECTION=129.32.95.123 42412 129.32.95.92 22
+SSH_CLIENT=129.32.95.123 42412 22
+SHELL=/home/TU/tug78963/tug78963/os/shellmain
+MAIL=/var/mail/tug78963
+PATH=/home/TU/tug78963:/home/TU/tug78963/bin:/home/TU/tug78963:/home/TU/tug78963/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/bin:/usr/bin:.:/usr/local/bin:/usr/bin:.
+HOME=/home/TU/tug78963
+LOGNAME=tug78963
+USER=tug78963
+LANG=en_US.UTF-8
+/home/TU/tug78963/tug78963/os>quit
+cis-lclient11:~/tug78963/os>gcc -o shellmain shellmain.c
+cis-lclient11:~/tug78963/os>./shellmain
+/home/TU/tug78963/tug78963/os>cd testdir
+testdir
+: No such file or directory
+/home/TU/tug78963/tug78963/os>quit
+cis-lclient11:~/tug78963/os>ls
+shellmain  shellmain.c	shellmain.c~  testdir
+cis-lclient11:~/tug78963/os>cd testdir
+cis-lclient11:~/tug78963/os/testdir>cd ..
+cis-lclient11:~/tug78963/os>cd ..
+cis-lclient11:~/tug78963>mkdir testdirec
+cis-lclient11:~/tug78963>cd os
+cis-lclient11:~/tug78963/os>gcc -o shellmain shellmain.c
+cis-lclient11:~/tug78963/os>./shellmain
+/home/TU/tug78963/tug78963/os>cd testdirec
+testdirec
+: No such file or directory
+/home/TU/tug78963/tug78963/os>
